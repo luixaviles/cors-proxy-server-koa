@@ -8,7 +8,7 @@ const port: number | string = process.env.PORT || 3000;
 app.use(cors());
 
 const proxyOptions: proxy.IKoaProxiesOptions = {
-    target: 'https://app.deliverychain.io',
+    target: 'https://app.mydomain.com',
     changeOrigin: true,
     logs: true,
 }
